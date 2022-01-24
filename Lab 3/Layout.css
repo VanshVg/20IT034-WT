@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: 40px;
+    box-align: center;
+    text-align: center;
+    padding: 5px;
+    background-color: silver;
+}
+.container1{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+.hd{
+    width: 2%;
+    display: inline-block;
+    float: left;
+    visibility: hidden;
+}
+.box{
+    width: 32%;
+    height: 360px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    background-color: silver;
+}
+.box1{
+    width: 23.5%;
+    height:80px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    background-color: Silver;
+    margin-top: 20px;
+    color: transparent;
+}
