@@ -1,0 +1,18 @@
+div:hover{
+    width: 1000px;
+    background-color: black;
+    color:white;
+    transform: rotate(60deg);
+}
+div {
+    width: 300px;
+    padding: 50px;
+    margin: 200px;
+    text-align: center;
+    background-color: lightslategray;
+    transition: 2s;
+}
+.abc{
+    color:white;
+    font-size: 30px;
+}
