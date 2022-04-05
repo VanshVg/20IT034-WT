@@ -1,18 +1,14 @@
-function fibo()
-{
-    const n=parseInt(prompt('Enter the number:'));
-    let a=0,b=1,result;
-    let a1="",b1=""
-    for(let i=1;i<=n;i++)
-    {
-    console.log(a1);
-    console.log(b1);
-    result=a+b;
-    a=b;
-    b=result;
-    a1=a+"<br/>";
-    b1=b+"<br/>";
+function cal() {
+    x=parseInt(prompt("Enter the value:"));
+    a=0;
+    b=1;
+    n="1<br>";
+    for (i=0;i<x;i++){
+        c=a+b;
+        a=b;
+        b=c;
+        n=n+c+"<br>";
     }
-    document.getElementById("x").innerHTML=a1;
-    document.getElementById("y").innerHTML=b1;
+    document.getElementById("fibo").innerHTML = n;
 }
+
