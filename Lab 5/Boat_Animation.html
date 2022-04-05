@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat_Animation</title>
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        .bg {
+          background-image: url("https://images.pexels.com/photos/734973/pexels-photo-734973.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+          position: sticky;
+          background-size: cover;
+          height: 88%; 
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        div {
+        position: relative;
+        animation: mymove 5s infinite;
+        animation-direction: alternate;
+        }
+        #div1 {animation-timing-function: linear;}
+        @keyframes mymove {
+            from {left: 3px;}
+            to {left: 1050px;}
+        }
+        </style>
+</head>
+<body>
+    <div id="div1"><img src="boat.jpg" alt="Boat_Animation"></div>
+    <div class="bg"></div>
+</body>
+</html>
